@@ -386,7 +386,7 @@
  *
  *   Options: [Marlin Mode: 0, Touch Mode: 1, Blocked Marlin Mode: 2, Blocked Touch Mode: 3]
  */
-#define DEFAULT_MODE 1  // Default: 1
+#define DEFAULT_MODE 3  // Default: 1
 
 /**
  * Serial Always ON
@@ -449,7 +449,7 @@
  * Hotend Count
  *   Value range: [min: 0, max: 6]
  */
-#define HOTEND_COUNT 1  // Default: 1
+#define HOTEND_COUNT 0  // Default: 1
 
 /**
  * Heated Bed Support
@@ -459,7 +459,7 @@
  *
  *   Options: [disable: 0, enable: 1]
  */
-#define HEATED_BED 1  // Default: 1
+#define HEATED_BED 0  // Default: 1
 
 /**
  * Heated Chamber Support
@@ -479,7 +479,7 @@
  *
  *   Value range: [min: 0, max: 6]
  */
-#define EXTRUDER_COUNT  1  // Default: 1
+#define EXTRUDER_COUNT  0  // Default: 1
 
 // For mixing extruder set to 1 (this option turns off auto detection of the number of extruders)
 #define MIXING_EXTRUDER 0  // Default: 0
@@ -744,7 +744,7 @@
  *
  *   Options: [disable: 0, enable: 1]
  */
-#define PROBING_Z_OFFSET 1  // Default: 1
+#define PROBING_Z_OFFSET 0  // Default: 1
 
 /**
  * Probing Z Raise (Probe Offset, Mesh Editor)
@@ -952,10 +952,10 @@
  *
  *   Options: [disable: 0, enable: 1]
  */
-#define TOUCH_SOUND  1  // Default: 1
-#define TOAST_SOUND  1  // Default: 1
+#define TOUCH_SOUND  0  // Default: 1
+#define TOAST_SOUND  0  // Default: 1
 #define ALERT_SOUND  1  // Default: 1
-#define HEATER_SOUND 1  // Default: 1
+#define HEATER_SOUND 0  // Default: 1
 
 /**
  * LCD Brightness Levels (only for TFT28/TFT35/TFT43/TFT50/TFT70 V3.0)
@@ -971,7 +971,7 @@
  * period of the LCD idle time.
  *   Options: [OFF: 0, 5sec: 1, 10sec: 2, 30sec: 3, 1min: 4, 2min: 5, 5min: 6, 10min: 7]
  */
-#define LCD_IDLE_TIME 0  // Default: 0
+#define LCD_IDLE_TIME 2  // Default: 0
 
 // Custom value in seconds. This will be used if LCD_IDLE_TIME is set to 7 (CUSTOM Seconds)
 #define IDLE_TIME_CUSTOM (10 * 60)  // Default: 10 * 60
@@ -1021,7 +1021,7 @@
  * Knob LED color at startup.
  *   Options: [OFF: 0, WHITE: 1, RED: 2, ORANGE: 3, YELLOW: 4, GREEN: 5, BLUE: 6, INDIGO: 7, VIOLET: 8]
  */
-#define KNOB_LED_COLOR 1  // Default: 1
+#define KNOB_LED_COLOR 6  // Default: 1
 
 // Keep the LED state in Marlin Mode
 #define KEEP_KNOB_LED_COLOR_MARLIN_MODE  // Default: uncommented (enabled)
